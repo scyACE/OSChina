@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.wxhl.core.widget.TipInfoLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tip_layout_id" style="@style/layout_match">
+    <LinearLayout android:id="@+id/main_body_id" style="@style/layout_match"
+        android:orientation="vertical" />
+</com.wxhl.core.widget.TipInfoLayout>

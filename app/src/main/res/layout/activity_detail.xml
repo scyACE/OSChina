@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:scrollbars="none"
+    >
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.wuxianedu.oschina.activity.DetailActivity">
+
+        <android.support.v7.widget.CardView  android:id="@+id/rl_id"
+            android:layout_width="match_parent" android:elevation="5dp"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout android:background="#EBEAEA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/name_id" android:text="名字"
+                    android:layout_width="wrap_content" android:textColor="@color/black"
+                    android:layout_height="wrap_content" android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView android:id="@+id/time_id" android:layout_below="@+id/name_id"
+                    android:layout_width="wrap_content" android:text="更新时间"
+                    android:layout_height="wrap_content" android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/line_id"  android:background="@color/gray"
+                    android:layout_width="match_parent" android:layout_below="@+id/time_id"
+                    android:layout_height="0.5dp" android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+
+                <TextView android:id="@+id/description_id" android:layout_below="@+id/line_id"
+                    android:layout_width="wrap_content" android:text="描述 "
+                    android:layout_height="wrap_content" android:layout_margin="10dp"
+                    />
+
+                <Button android:id="@+id/watch_btn" android:layout_width="wrap_content"
+                    android:layout_height="40dp" android:text="看"
+                    android:layout_marginRight="30dp" android:layout_alignParentRight="true"
+                    android:layout_below="@+id/description_id" android:layout_marginTop="40dp"
+                    android:background="@color/colorPrimary" android:textColor="@color/white"
+                    android:paddingLeft="10dp" android:paddingRight="10dp"/>
+
+                <Button android:id="@+id/star_btn" android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_width="wrap_content" android:layout_below="@+id/description_id"
+                    android:layout_height="40dp" android:text="星"
+                    android:layout_marginTop="40dp" android:layout_toLeftOf="@+id/watch_btn"
+                    android:background="@color/colorPrimary" android:layout_marginRight="10dp"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:background="@color/gray" android:id="@+id/line2_id"
+                    android:layout_width="match_parent" android:layout_below="@+id/star_btn"
+                    android:layout_height="0.5dp" android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+
+                <TextView android:id="@+id/date_id" android:layout_below="@+id/line2_id"
+                    android:layout_width="wrap_content" android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content" android:text="几个月前"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView android:id="@+id/tag_id" android:layout_below="@+id/line2_id"
+                    android:layout_width="wrap_content" android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content" android:text="标志"
+                    android:layout_marginLeft="100dp" android:layout_toRightOf="@+id/date_id"
+                    />
+
+                <TextView android:id="@+id/language_id" android:layout_below="@+id/tag_id"
+                    android:layout_width="wrap_content" android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content" android:text="语言"
+                    android:layout_marginLeft="10dp" android:layout_marginBottom="15dp"
+                    />
+
+                <TextView android:id="@+id/author_name_id" android:layout_below="@+id/tag_id"
+                    android:layout_width="wrap_content" android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content" android:text="作者"
+                    android:layout_marginLeft="100dp" android:layout_toRightOf="@+id/date_id"
+                    android:layout_marginBottom="15dp"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <LinearLayout android:id="@+id/ll" android:orientation="vertical"
+            android:layout_width="match_parent" android:layout_below="@+id/rl_id"
+            android:layout_height="wrap_content" android:layout_marginTop="50dp"
+            android:divider="@drawable/divider"
+            android:showDividers="middle" >
+
+            <TextView android:id="@+id/readme_id" android:text="Readme"
+                android:layout_width="match_parent" android:textColor="@color/black"
+                android:layout_height="wrap_content" android:padding="20dp"
+                android:background="@drawable/textview_sel" android:clickable="true"
+                />
+
+            <TextView android:id="@+id/code_id" android:text="代码"
+                android:layout_width="match_parent" android:textColor="@color/black"
+                android:layout_height="wrap_content" android:padding="20dp"
+                android:background="@drawable/textview_sel" android:clickable="true"/>
+
+            <TextView android:id="@+id/commit_id" android:text="提交"
+                android:layout_width="match_parent" android:textColor="@color/black"
+                android:layout_height="wrap_content" android:padding="20dp"
+                android:background="@drawable/textview_sel" android:clickable="true"/>
+
+            <TextView android:id="@+id/question_id" android:text="问题"
+                android:layout_width="match_parent" android:textColor="@color/black"
+                android:layout_height="wrap_content" android:padding="20dp"
+                android:background="@drawable/textview_sel" android:clickable="true"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

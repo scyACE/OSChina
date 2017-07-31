@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!--控制toolbar样式的主题-->
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.ActionBar">
+        <!--点点点  和 左侧三条线 的颜色-->
+        <item name="colorControlNormal">@color/white</item>
+        <!--标题文字颜色 和菜单文字的颜色-->
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+    
+    <style name="welcome" parent="Theme.AppCompat.Light">
+        
+        <item name="android:windowIsTranslucent">true</item>
+        
+    </style>
+</resources>

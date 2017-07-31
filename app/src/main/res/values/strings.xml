@@ -1,0 +1,67 @@
+<resources>
+    <string name="hello_word">你好 世界 </string>
+
+    <string name="app_name">开源中国</string>
+
+    <string name="drawer_open">打开</string>
+    <string name="drawer_close">关闭</string>
+
+    <string name="recommend_project">推荐项目</string>
+    <string name="hot_project">热门项目</string>
+    <string name="new_update">最近更新</string>
+    <!--菜单-->
+    <string name="other">其他</string>
+    <string name="place_login">点击登录</string>
+    <string name="change_theme">切换主题</string>
+    <string name="find">发现</string>
+    <string name="mine">我的</string>
+    <string name="language">语言</string>
+    <string name="shake">摇一摇</string>
+    <string name="setting">设置</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+    <string name="sem_watch">\uf06e</string>
+    <string name="sem_empty_watch">\uf070</string>
+    <string name="sem_star">\uf005</string>
+    <string name="sem_empty_star">\uf006</string>
+    <string name="sem_fork">\uf126</string>
+    <string name="sem_tag">\uf02b</string>
+    <string name="sem_user">\uf007</string>
+    <string name="sem_time">\uf017</string>
+    <string name="go_login">点击登录</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="no_description_hint">暂无项目介绍</string>
+    <string name="fork_project_title">Fork了项目&#160;</string>
+    <string name="leave_project_title">离开了项目&#160;</string>
+    <string name="enter_project_title">加入了项目&#160;</string>
+    <string name="accept_project_title">接受了项目&#160;</string>
+    <string name="pull_project_title">推送到了项目&#160;</string>
+    <string name="reopen_project_title">重新打开了项目&#160;</string>
+    <string name="close_project_title">关闭了项目&#160;</string>
+    <string name="update_project_title">更新了项目&#160;</string>
+    <string name="comment_project_title">评论了项目</string>
+    <string name="update_project_default_title">更新了动态：</string>
+    <string name="in_project_title">在项目</string>
+    <string name="create_project_title">创建了</string>
+    <string name="branch_title">分支</string>
+
+
+    <!-- <string name="data">整数型:%1$d，浮点型：%2$.2f，字符串:%3$s</string>
+        %后面是占位符的位置，从1开始， $ 后面是填充数据的类型 %d：表示整数型；
+        %f ：表示浮点型，其中f前面的.  3表示小数的位数 %c：表示字符串  -->
+    <string name="refresh_count_info">更新了%1$d内容</string>
+    <string name="update_head_title">更新于：%s</string>
+
+    <string name="today">今天%s</string>
+    <string name="first_before_dat">昨天%s</string>
+    <string name="secode_before_dat">前天%s</string>
+    <string name="before_day">%1$d天前%2$s</string>
+    <string name="before_month">%d个月前</string>
+    <string name="before_year">%d年前</string>
+    <string name="unknow_time">未知时间</string>
+
+</resources>

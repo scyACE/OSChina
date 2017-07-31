@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/head_id" android:layout_margin="10dp"
+        android:layout_width="40dp" android:src="@mipmap/mini_avatar"
+        android:layout_height="40dp" />
+    
+    <TextView android:id="@+id/action_id" android:layout_toRightOf="@+id/head_id"
+        android:layout_width="wrap_content" android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" android:text="姐姐来看了看"
+        android:textColor="@color/black"/>
+    
+    <LinearLayout android:id="@+id/infor_ll" android:orientation="vertical"
+        android:layout_width="wrap_content" android:layout_toRightOf="@+id/head_id"
+        android:layout_height="wrap_content" android:layout_below="@+id/action_id"></LinearLayout>
+
+    <TextView android:id="@+id/time_id" android:layout_below="@id/infor_ll"
+        android:layout_width="wrap_content" android:text=" 时间"
+        android:layout_height="wrap_content" android:layout_toRightOf="@+id/head_id"/>
+</RelativeLayout>

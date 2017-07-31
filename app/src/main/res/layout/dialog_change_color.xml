@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/red_btn" app:fabSize="mini"
+            android:layout_weight="1" app:backgroundTint="@color/red"
+            android:layout_marginLeft="50dp" android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp" android:layout_marginBottom="10dp"/>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/brown_btn" app:fabSize="mini"
+            android:layout_weight="1" app:backgroundTint="@color/brown"
+            android:layout_margin="10dp"/>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/blue_btn" app:fabSize="mini"
+            android:layout_weight="1" app:backgroundTint="@color/blue"
+            android:layout_margin="10dp"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/blue_grey_btn" app:fabSize="mini"
+            android:layout_weight="1" app:backgroundTint="@color/blue_grey"
+            android:layout_margin="10dp"/>
+    </TableRow>
+
+    <TableRow>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/yellow_btn" app:fabSize="mini"
+            android:layout_weight="1" app:backgroundTint="@color/yellow"
+            android:layout_marginLeft="50dp" android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp" android:layout_marginBottom="10dp"/>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/deep_purple_btn" app:fabSize="mini"
+            android:layout_weight="1" app:backgroundTint="@color/deep_purple"
+            android:layout_margin="10dp"/>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/pink_btn" app:fabSize="mini"
+            android:layout_weight="1" app:backgroundTint="@color/pink"
+            android:layout_margin="10dp"/>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/green_btn" app:fabSize="mini"
+            android:layout_weight="1" app:backgroundTint="@color/green"
+            android:layout_margin="10dp"/>
+
+    </TableRow>
+</TableLayout>

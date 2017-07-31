@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wuxianedu.oschina.activity.LoginActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/account_layout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="输入你的手机号">
+
+            <com.wxhl.core.widget.ClearEditText android:id="@+id/account_et" android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/password_layout_id" android:layout_below="@+id/account_layout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="输入你的密码">
+
+            <com.wxhl.core.widget.ClearEditText android:id="@+id/password_et" android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/auto_login_checkbox" android:text="自动登录"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_below="@+id/password_layout_id" android:checked="true"/>
+
+        <Button
+            android:id="@+id/login_btn" android:text="登录"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="@drawable/login_btn_sel" android:layout_below="@id/auto_login_checkbox"
+            android:enabled="false"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

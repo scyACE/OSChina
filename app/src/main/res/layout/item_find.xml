@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--头像-->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/head_id" android:src="@mipmap/mini_avatar"
+        android:layout_width="40dp" android:layout_margin="10dp"
+        android:layout_height="40dp" />
+
+    <!--姓名-->
+    <TextView android:id="@+id/name_id" android:layout_toRightOf="@+id/head_id"
+        android:layout_width="wrap_content" android:layout_alignTop="@+id/head_id"
+        android:layout_height="wrap_content" android:textColor="@color/black"/>
+
+    <!--描述-->
+    <TextView android:id="@+id/description_id" android:layout_below="@+id/name_id"
+        android:layout_width="wrap_content" android:layout_alignLeft="@+id/name_id"
+        android:layout_height="wrap_content" android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp" android:text="暂无项目介绍"/>
+
+    <!--眼睛-->
+    <TextView
+        android:id="@+id/see_id" android:layout_alignLeft="@+id/name_id"
+        android:layout_width="wrap_content" android:layout_below="@id/description_id"
+        android:layout_height="wrap_content" android:layout_marginTop="10dp" />
+
+    <!--星-->
+    <TextView
+        android:id="@+id/star_id" android:layout_toRightOf="@+id/see_id"
+        android:layout_width="wrap_content" android:layout_below="@id/description_id"
+        android:layout_height="wrap_content" android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <!--看-->
+    <TextView
+        android:id="@+id/watch_id" android:layout_toRightOf="@+id/star_id"
+        android:layout_width="wrap_content" android:layout_below="@id/description_id"
+        android:layout_height="wrap_content" android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <!--语言-->
+    <TextView
+        android:id="@+id/language_id" android:layout_toRightOf="@+id/watch_id"
+        android:layout_width="wrap_content" android:layout_below="@id/description_id"
+        android:layout_height="wrap_content" android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" android:layout_marginBottom="10dp" />
+</RelativeLayout>

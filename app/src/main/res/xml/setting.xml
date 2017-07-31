@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.jenzz.materialpreference.PreferenceCategory
+        android:title="常规设置">
+
+        <com.jenzz.materialpreference.SwitchPreference
+            android:defaultValue="false"
+            android:title="右手操作模式"
+            android:summary="开启右手操作模式,侧边栏将从右侧划开,默认为左侧划开"
+            android:key="right" />
+        <com.jenzz.materialpreference.CheckBoxPreference
+            android:defaultValue="true"
+            android:title="语言卡片式"
+            android:summary="勾选: 卡片式,未勾选: 列表式"
+            android:key="iscard" />
+    </com.jenzz.materialpreference.PreferenceCategory>
+    <com.jenzz.materialpreference.Preference
+        android:title="清空缓存"
+        android:summary="0kb"
+        android:key="clear"
+        />
+
+    <com.jenzz.materialpreference.PreferenceCategory
+        android:title="其他设置">
+        <com.jenzz.materialpreference.Preference
+            android:title="意见反馈"
+            android:summary="发送邮件"
+            android:key="email" />
+
+        <com.jenzz.materialpreference.Preference
+            android:title="赏个好评"
+            android:summary="记得五分好评"
+            android:key="goodjob" />
+
+    </com.jenzz.materialpreference.PreferenceCategory>
+</PreferenceScreen>

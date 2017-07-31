@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_match" android:orientation="vertical"
+    android:background="@android:color/white">
+    <!--toolbar-->
+    <include layout="@layout/base_toolbar" />
+    <!--&lt;!&ndash;toolbar 阴影&ndash;&gt;-->
+    <!--<include android:id="@+id/toolbar_shadow_id" layout="@layout/base_toolbar_shadow"/>-->
+    <com.wxhl.core.widget.TipInfoLayout android:id="@+id/tip_layout_id"
+        style="@style/layout_match">
+        <LinearLayout android:id="@+id/main_body_id" style="@style/layout_match"
+            android:orientation="vertical" />
+    </com.wxhl.core.widget.TipInfoLayout>
+</LinearLayout>
